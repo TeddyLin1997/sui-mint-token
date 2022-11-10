@@ -1,0 +1,4 @@
+# Sui network mint token
+
+合約地址: 0xfc85706537d15ccdf7e93fda7436e38873e0d46d
+Reserve: 0xf1c1281d917c7c3daa703bca495c4a564ca22a8d
