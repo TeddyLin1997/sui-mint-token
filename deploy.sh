@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:otsofintech/translate-tools.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:otsofintech/sofinx-ui.git master:gh-pages
+git push -f git@github.com:ChrisLin1997/sui-mint-token.git master:gh-pages
 
 cd -
