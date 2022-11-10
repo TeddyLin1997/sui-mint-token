@@ -10,9 +10,3 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-.Home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
