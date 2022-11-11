@@ -72,11 +72,11 @@ export default function Home() {
         setCreating(true);
         try {
             const result = await (suiWallet as any).executeMoveCall({
-                packageObjectId: '0xfc85706537d15ccdf7e93fda7436e38873e0d46d',
+                packageObjectId: '0x078e8ad03721c79b0dbde7fb13b8817aa8dd1cde',
                 module: 'christoken',
                 function: 'mint',
                 typeArguments: [],
-                arguments: ['0xf1c1281d917c7c3daa703bca495c4a564ca22a8d'],
+                arguments: ['0xfb68029fa3681443b98a1d3955833538001405c8'],
                 gasBudget: 10000,
             });
             const nftID = result?.EffectResponse?.effects?.created?.[0]?.reference?.objectId;
