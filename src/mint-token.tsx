@@ -95,7 +95,7 @@ export default function Home() {
             </head>
 
             <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <img src={Neil} alt="" />
+              <img src={Neil} alt="" style={{ width: '200px', height: 'auto' }} />
               {walletInstalled ? (
                 <div>
                   {connected ? (
